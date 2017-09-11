@@ -19,7 +19,7 @@
 
     <artifactId>mattermost</artifactId>
     <packaging>hpi</packaging>
-    <version>2.3.2-SNAPSHOT</version>
+    <version>2.4.1-SNAPSHOT</version>
     <name>Mattermost Notification Plugin</name>
     <description>A Build status publisher that notifies channels on a Mattermost server</description>
     <url>https://wiki.jenkins-ci.org/display/JENKINS/Mattermost+Plugin</url>
@@ -202,7 +202,7 @@
                 <artifactId>maven-hpi-plugin</artifactId>
                 <extensions>true</extensions>
                 <configuration>
-                    <compatibleSinceVersion>2.0</compatibleSinceVersion>
+                    <compatibleSinceVersion>2.4.0</compatibleSinceVersion>
                 </configuration>
             </plugin>
         </plugins>
